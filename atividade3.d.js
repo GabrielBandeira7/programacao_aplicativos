@@ -1,8 +1,11 @@
-let nome;
-let idade;
+const nome = ["Caio", "Matheus"];
+const idade = [12, 13];
 
-for(let i = idade; i <= 9; i++);{
-    console.log(`${i}:`);
-    
+nome.forEach(function(element){
+    console.log("Nome: ", element);
+});
 
-}
+idade.forEach(function(element){
+    console.log("idade: ", element);
+});
+
